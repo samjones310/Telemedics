@@ -1,0 +1,40 @@
+@import './variables';
+
+//Typography
+
+.dim {
+  color: #616161;
+}
+
+.light {
+  @extend .font-400;
+}
+
+.grey-link {
+  color: #616161;
+  text-decoration: none;
+  cursor: pointer;
+  &:active,
+  &:hover,
+  &:focus {
+    color: #616161;
+    text-decoration: none;
+    border-bottom: 1px dotted #babcbf;
+  }
+}
+
+.page-title {
+  color: rgb(97, 97, 97);
+  font-size: 24px;
+  @extend .font-600;
+}
+
+.thin-weight {
+  font-weight: 400;
+}
+.strong {
+  font-weight: bold;
+}
+.small {
+  font-size: calc(0.5rem + 2);
+}

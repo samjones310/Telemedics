@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>circle-09</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Mockup" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Dashboard" transform="translate(-40.000000, -150.000000)" stroke="#000000">
+            <g id="Side-Bar" transform="translate(0.000000, 100.000000)">
+                <g id="circle-09" transform="translate(40.000000, 50.000000)">
+                    <circle id="Oval" cx="20" cy="17.5" r="8.75"></circle>
+                    <path d="M16.25,25.405 C16.1876472,27.4755735 14.8164556,29.2777112 12.8375,29.89 L7.17,32.61 C6.93079415,32.7104895 6.70005136,32.830041 6.48,32.9675" id="Path"></path>
+                    <path d="M33.52,32.97 C33.2999486,32.832541 33.0692058,32.7129895 32.83,32.6125 L27.1675,29.8925 C25.0875,28.7975 23.755,27.56 23.755,25.4075" id="Path"></path>
+                    <circle id="Oval" cx="20" cy="20" r="18.75"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

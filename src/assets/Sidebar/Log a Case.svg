@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<svg width="21px" height="20px" viewBox="0 0 21 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>Log a Case</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Sidebar/Close_State" transform="translate(-32.000000, -158.000000)">
+            <g id="Sidebar/Open_State">
+                <g id="Sidebar">
+                    <g id="Group" transform="translate(32.000000, 92.000000)">
+                        <g id="Log-a-Case" transform="translate(0.000000, 66.000000)">
+                            <g id="reviews">
+                                <path d="M17.0154354,0.833329386 L17.0165776,0.833330169 L3.98464461,0.833329386 C2.24354713,0.835716424 0.833330169,2.24783624 0.833330169,3.98890625 L0.83329309,17.9223923 C0.829770744,18.2957701 1.0559328,18.6329614 1.4194554,18.7782373 C1.53484891,18.8272228 1.65874977,18.8530356 1.77353,18.8541745 C2.01625039,18.853361 2.24853928,18.7553926 2.42386271,18.5767614 L5.44062518,15.5576073 L5.78599527,15.5576073 L17.0154359,15.5576081 C18.754826,15.555225 20.1642876,14.1457582 20.1666698,12.4075 L20.1666701,3.98630971 C20.1652404,2.24623407 18.7555002,0.835714421 17.0154354,0.833329386 Z" id="Path" stroke="#35589b" stroke-width="1.66666034" fill-rule="nonzero"></path>
+                                <rect id="Rectangle" fill="#35589b" x="4.66666667" y="4.63235294" width="10.5" height="2.31617647" rx="1.15808824"></rect>
+                                <rect id="Rectangle" fill="#35589b" x="4.66666667" y="9.26470588" width="4.66666667" height="2.31617647" rx="1.15808824"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

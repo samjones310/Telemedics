@@ -1,0 +1,16 @@
+runtime: python27
+api_version: 1
+threadsafe: true
+service: lne-applicant-portal-demo
+
+handlers:
+  - url: /assets
+    static_dir: dist/assets
+
+  - url: /(.*\.(ico|js|css))
+    static_files: dist/\1
+    upload: dist/(.*\.(ico|js|css))
+
+  - url: /.*
+    static_files: dist/index.html
+    upload: dist/index.html

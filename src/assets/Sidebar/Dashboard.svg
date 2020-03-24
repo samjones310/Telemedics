@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<svg width="21px" height="19px" viewBox="0 0 21 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>Dashboard</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Sidebar/Close_State" transform="translate(-33.000000, -93.000000)">
+            <g id="Sidebar/Open_State">
+                <g id="Sidebar">
+                    <g id="Group" transform="translate(32.000000, 92.000000)">
+                        <g id="Dashboard">
+                            <g id="item">
+                                <rect id="Rectangle" fill-opacity="0" fill="#35589b" x="0" y="0" width="23" height="23"></rect>
+                                <g id="icon/dashboard" transform="translate(1.000000, 1.000000)">
+                                    <g>
+                                        <rect id="Rectangle" fill="#35589b" x="0" y="11" width="5" height="8" rx="2"></rect>
+                                        <rect id="Rectangle-Copy" stroke="#35589b" stroke-width="2" x="9" y="6" width="3" height="12" rx="1.5"></rect>
+                                        <rect id="Rectangle-Copy" stroke="#35589b" stroke-width="2" x="17" y="1" width="3" height="17" rx="1.5"></rect>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

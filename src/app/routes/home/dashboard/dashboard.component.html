@@ -1,0 +1,235 @@
+<div class="app-container">
+  <div class="alert-info">
+    <div>
+      <b>Support Ticket</b>: If you are facing any issues within this portal
+      please click <a href="javascript:void(0);"><b>here</b></a> to create a ticket. Our technical
+      team will revert back as soon as possible.
+    </div>
+  </div>
+  <mat-card>
+    <mat-card-content>
+
+      <div class="info-card-container row">
+        <div class="col-xs-2 col-sm-3">
+          <div class="icon-container bold">
+            <mat-icon inline>account_circle</mat-icon>
+            <div>Provider</div>
+          </div>
+        </div>
+
+        <div class="col-xs-10 col-sm-9 main-content-container-wrap">
+          <div class="main-content-container">
+            <div>
+              <div class="bold">NEW YORK CHILD CARE CENTER</div>
+              <div class="small-font">Name</div>
+              <div class="bold">CURRENT</div>
+              <div class="small-font">Provider Status</div>
+            </div>
+            <div>
+              <div class="bold">LICENSED</div>
+              <div class="small-font">License Status</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </mat-card-content>
+  </mat-card>
+  <mat-card>
+    <mat-card-content>
+      <div class="info-card-container row">
+        <div class="col-sm-3">
+          <div class="icon-container bold">
+            <mat-icon inline>assignment</mat-icon>
+            <div>License</div>
+          </div>
+        </div>
+        <div class="col-sm-9 main-content-container-wrap">
+          <div class="main-content-container">
+            <div>
+              <div class="bold">REGULAR</div>
+              <div class="small-font">License Type</div>
+              <div class="bold">6</div>
+              <div class="small-font">Capacity</div>
+            </div>
+            <div>
+              <div class="bold">MAY 27,2019</div>
+              <div class="small-font"> Last Issue Date</div>
+              <div class="bold"> MAY 26,2022</div>
+              <div class="small-font">Expiration Date</div>
+            </div>
+            <div class="side-boxes">
+              <div class="large-text">985</div>
+              <div class="small-font"> Days Remaining</div>
+            </div>
+            <div class="side-boxes">
+              <div class="large-text">N/A</div>
+              <div class="small-font desc-text">
+                Days Remaining For Application Renewal Due Date
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </mat-card-content>
+  </mat-card>
+  <mat-card class="no-shadow">
+    <mat-card-title class="black-header">
+      <mat-icon inline>sync_alt</mat-icon>
+      <div>MY LICENSING APPLICATIONS</div>
+    </mat-card-title>
+    <mat-card-content>
+      <mat-tab-group>
+        <mat-tab>
+          <ng-template mat-tab-label>
+            <div class="tab">
+              <mat-icon class="tab-icon">create_outline</mat-icon>
+              <div class="tab-content">
+                <div>Draft</div>
+                <div> 2 Unsubmitted</div>
+              </div>
+            </div>
+          </ng-template>
+          <mat-card class="step-info-card">
+            <mat-card-content>
+              <div class="status-marker draft"></div>
+              <div class="content">
+                <div>
+                  <div class="bold"><a href="javascript:void(0);">9043756</a></div>
+                  <div class="small-font">Transaction ID</div>
+                  <div class="bold">FCC LICENSE UPGRADE</div>
+                  <div class="small-font">Type of Transaction</div>
+                </div>
+                <div>
+                  <div class="bold">N/A</div>
+                  <div class="bold">HOUSEHOLD MEMBERS</div>
+                  <div class="small-font">Last Step</div>
+                </div>
+                <div>
+                  <div class="bold">USEFUL</div>
+                  <div class="small-font"><a href="javascript:void(0);" (click)="openDiscardDialog()">Discard this
+                      Application</a></div>
+                </div>
+              </div>
+            </mat-card-content>
+          </mat-card>
+          <mat-card class="step-info-card">
+            <mat-card-content>
+              <div class="status-marker draft"></div>
+              <div class="content">
+                <div>
+                  <div class="bold"><a href="javascript:void(0);">903683</a></div>
+                  <div class="small-font">Transaction ID</div>
+                  <div class="bold">CHANGE OF ADDRESS </div>
+                  <div class="small-font">Type of Transaction</div>
+                </div>
+                <div>
+                  <div class="bold">N/A</div>
+                  <div class="bold">TRANSACTION / PROVIDER INFORMATION</div>
+                  <div class="small-font">Last Step</div>
+                </div>
+                <div>
+                  <div class="bold">USEFUL</div>
+                  <div class="small-font"><a href="javascript:void(0);" (click)="openDiscardDialog()">Discard this
+                      Application</a></div>
+                </div>
+              </div>
+            </mat-card-content>
+          </mat-card>
+        </mat-tab>
+
+        <mat-tab>
+          <ng-template mat-tab-label>
+            <div>
+              <div class="tab">
+                <mat-icon class="tab-icon" inline>list_outline</mat-icon>
+                <div>
+                  <div>In Progress</div>
+                  <div>0 Submitted</div>
+                </div>
+              </div>
+            </div>
+          </ng-template>
+        </mat-tab>
+
+
+        <mat-tab>
+          <ng-template mat-tab-label>
+            <div>
+              <div class="tab">
+                <mat-icon class="tab-icon" inline>loop_outline</mat-icon>
+                <div>
+                  <div>In Progress</div>
+                  <div>0 Under Review</div>
+                </div>
+              </div>
+            </div>
+          </ng-template>
+        </mat-tab>
+        <mat-tab>
+          <ng-template mat-tab-label>
+            <div class="tab">
+              <mat-icon class="tab-icon">done</mat-icon>
+              <div class="tab-content">
+                <div>Processed</div>
+                <div> 2 Closed</div>
+              </div>
+            </div>
+          </ng-template>
+          <mat-card class="step-info-card">
+            <mat-card-content>
+              <div class="status-marker processed"></div>
+              <div class="content">
+                <div>
+                  <div class="bold"><a href="javascript:void(0);">903683</a></div>
+                  <div class="small-font">Application ID</div>
+                  <div class="bold">CHANGE OF ADDRESS </div>
+                  <div class="small-font">Type of Application</div>
+                </div>
+                <div>
+                  <div class="bold">Manish Kumar</div>
+                  <div class="small-font">Licensor</div>
+                  <div class="bold">06/11/2019</div>
+                  <div class="small-font">Submission Date</div>
+                </div>
+              </div>
+            </mat-card-content>
+          </mat-card>
+          <mat-card class="step-info-card">
+            <mat-card-content>
+              <div class="status-marker processed"></div>
+              <div class="content">
+                <div>
+                  <div class="bold"><a href="javascript:void(0);">903683</a></div>
+                  <div class="small-font">Application ID</div>
+                  <div class="bold">BACKGROUND RECORD CHECK (BRC)</div>
+                  <div class="small-font">Type of Application</div>
+                </div>
+                <div>
+                  <div class="bold">Saurabh Gupta</div>
+                  <div class="small-font">Licensor</div>
+                  <div class="bold">05/27/2019</div>
+                  <div class="small-font">Submission Date</div>
+                </div>
+              </div>
+            </mat-card-content>
+          </mat-card>
+        </mat-tab>
+      </mat-tab-group>
+
+    </mat-card-content>
+  </mat-card>
+  <mat-card class="no-shadow">
+    <mat-card-title class="black-header">
+      <mat-icon inline>date_range</mat-icon>
+      <div>PENDING ACTIONS </div>
+    </mat-card-title>
+    <mat-card-content>
+      <div>
+        <ul>
+          <li>There are no pending actions.</li>
+        </ul>
+      </div>
+    </mat-card-content>
+  </mat-card>
+</div>

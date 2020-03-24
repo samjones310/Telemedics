@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="30px" viewBox="0 0 40 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>Icon/Hamburger</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Mockup" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Dashboard" transform="translate(-50.000000, -35.000000)" fill="#FFFFFF">
+            <g id="Header">
+                <g id="Icon/Hamburger" transform="translate(50.000000, 35.000000)">
+                    <g id="Hamburger">
+                        <path d="M38.6666667,13.5 L1.33333333,13.5 C0.533333333,13.5 0,14.1 0,15 C0,15.9 0.533333333,16.5 1.33333333,16.5 L38.6666667,16.5 C39.4666667,16.5 40,15.9 40,15 C40,14.1 39.4666667,13.5 38.6666667,13.5 Z" id="Path" fill-rule="nonzero"></path>
+                        <path d="M38.6666667,0 L1.33333333,0 C0.533333333,0 0,0.6 0,1.5 C0,2.4 0.533333333,3 1.33333333,3 L38.6666667,3 C39.4666667,3 40,2.4 40,1.5 C40,0.6 39.4666667,0 38.6666667,0 Z" id="Path" fill-rule="nonzero"></path>
+                        <path d="M38.6666667,27 L1.33333333,27 C0.533333333,27 0,27.6 0,28.5 C0,29.4 0.533333333,30 1.33333333,30 L38.6666667,30 C39.4666667,30 40,29.4 40,28.5 C40,27.6 39.4666667,27 38.6666667,27 Z" id="Path" fill-rule="nonzero"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

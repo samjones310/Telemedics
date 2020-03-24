@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>buzz</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Mockup" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Dashboard" transform="translate(-40.000000, -330.000000)" stroke="#000000">
+            <g id="Side-Bar" transform="translate(0.000000, 100.000000)">
+                <g id="buzz" transform="translate(40.000000, 230.000000)">
+                    <path d="M14.8034783,28.8956522 C14.9095652,31.6817391 17.1878261,33.9130435 20,33.9130435 C22.8121739,33.9130435 25.0852174,31.6817391 25.1930435,28.8956522 L14.8034783,28.8956522 L14.8034783,28.8956522 Z" id="Path" fill-rule="nonzero"></path>
+                    <path d="M39.1304348,33.9130435 C39.1304348,30.6730435 37.3373913,24.3478261 32.173913,21.7391304 L32.173913,13.0434783 C32.173913,6.32 26.7234783,0.869565217 20,0.869565217 C13.2765217,0.869565217 7.82608696,6.32 7.82608696,13.0434783 L7.82608696,21.7391304 C2.60869565,24.4017391 0.869565217,30.6730435 0.869565217,33.9130435" id="Path"></path>
+                    <ellipse id="Oval" stroke-linecap="square" cx="20" cy="33.9130435" rx="19.1304348" ry="5.2173913"></ellipse>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

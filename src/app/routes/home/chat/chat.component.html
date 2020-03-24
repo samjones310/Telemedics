@@ -1,0 +1,31 @@
+<app-toolbar></app-toolbar>
+<link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+<br /><br />
+<div class="box"></div>
+<div class="boxed">
+<div id="chatbox">
+<p class="botText important">
+</p>
+</div>
+<div id="userInput">
+</div>
+
+<a href={{urls}} target="_blank">{{content}}</a>
+<br />
+<br/>
+<div class="row">
+<div class="col-sm-4"></div>
+<div class="col-sm-4">
+<form [formGroup]="chatbot" style="width:500px ">
+<input id="textInput" (keyup.enter)="search()" [(ngModel)]="name" style="height:40px"  placeholder="Message"
+[ngModelOptions]="{standalone: true}" >
+</form>
+<br>
+</div>
+</div>
+</div>
+
+<br /><br />
+<br /><br />
+<br /><br />
+<app-footer></app-footer>

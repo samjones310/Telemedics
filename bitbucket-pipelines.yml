@@ -1,0 +1,55 @@
+image: node:10.15.0
+
+pipelines:
+  branches:
+    # dev:
+    #   - step:
+    #       name: Build
+    #       caches:
+    #         - node
+    #       artifacts:
+    #         - dist/**
+    #       script:
+    #         - rm -rf dist/*
+    #         - npm install
+    #         - npm run-script build --  --outputPath=dist
+    #   - step:
+    #       name: Deploy to App Engine
+    #       script:
+    #         - pipe: atlassian/google-app-engine-deploy:0.6.0
+    #           variables:
+    #             KEY_FILE: $KEY_FILE
+    #             PROJECT: $PROJECT
+    #             DEPLOYABLES: 'app.yaml'
+
+#    prod:
+#      - step:
+#          name: Build
+#          caches:
+#            - node
+#          artifacts:
+#            - dist/**
+#          script:
+#            - rm -rf dist/*
+#            - npm install
+#            - npm run-script build -- --source-map=false --prod --aot  --outputPath=dist
+
+#    demo:
+#      - step:
+#          name: Build
+#          caches:
+#            - node
+#          artifacts:
+#            - dist/**
+#          script:
+#            - rm -rf dist/*
+#            - npm install
+#            - npm run-script build --  --outputPath=dist
+#      - step:
+#          name: Deploy to App Engine
+#          script:
+#            - pipe: atlassian/google-app-engine-deploy:0.6.0
+#              variables:
+#                KEY_FILE: $KEY_FILE
+#                PROJECT: $PROJECT
+#                DEPLOYABLES: 'demo-env.yaml'

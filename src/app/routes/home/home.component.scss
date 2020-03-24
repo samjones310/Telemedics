@@ -1,0 +1,158 @@
+@import '../../../styles';
+
+.nav-list {
+  max-width: 300px;
+  position: relative;
+  flex: 1 1;
+}
+
+.sidebar-item {
+  margin: 1rem 0;
+  display: flex;
+  padding: 0.4rem 0;
+  align-items: center;
+  justify-content: center;
+  background-color: #f6f6f6;
+  border-bottom: 1px transparent grey;
+
+  >* {
+    margin: 0 0.5rem;
+  }
+
+  div {
+    flex: 1 1 auto;
+  }
+
+  mat-icon {
+    flex: 0 0;
+    font-size: 36px;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  .help {
+    font-size: 24px;
+    padding-right: 2rem;
+    padding-left: 0;
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.powered-by {
+  flex: 0 0;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: $small-font;
+  padding: 1rem;
+
+  .google-cloud-icon {
+    height: 40px;
+  }
+}
+
+.home-container {
+  min-height: calc(100vh - 128px + 2rem);
+  display: flex;
+  margin-top: 64px;
+  background-color: #f0f3f8;
+}
+
+.sidenav-container {
+  flex: 1 1;
+  background-color: #f0f3f8;
+}
+
+:host ::ng-deep .home-container .mat-drawer-inner-container {
+  display: flex;
+  flex-direction: column;
+}
+
+mat-sidenav {
+  visibility: visible !important;
+}
+
+.margin-left-100 {
+  margin-left: 86px;
+}
+
+.padding-left-100 {
+  padding-left: 92px;
+}
+
+.display-block {
+  display: block;
+}
+
+.shrink {
+  transform: scale(0.7);
+  padding-right: 0;
+}
+
+.display-none {
+  display: none;
+}
+
+.fa {
+  font-size: 26px !important;
+  margin-left: 15px !important;
+  margin-right: 10px !important;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.settings {
+  margin-bottom: 0 !important;
+}
+
+.sidebar-item {
+  margin: 0 0;
+}
+
+$iconSize: 28px;
+
+.sidebar-icon-svg {
+  padding: 20px;
+  margin-left: 16px !important;
+  opacity: 0.6;
+  font-size: $iconSize !important;
+  width: $iconSize;
+  height: $iconSize;
+  color: #fff;
+}
+
+.sidebar-text {
+  min-width: 160px;
+  height: 24px;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  letter-spacing: 0px;
+  line-height: 24px;
+  margin-right: 2rem !important;
+  opacity: 0.6;
+  @extend .font-600;
+}
+
+.sidebar-item.active-item>.sidebar-icon-svg,
+.sidebar-item.active-item>.sidebar-text {
+  opacity: 1;
+}
+
+.sidebar-item,
+.flex-top,
+.mat-drawer-inner-container,
+.mat-list-base {
+  background: transparent !important;
+}
+
+.mat-drawer.mat-sidenav {
+  background-color: #35589b;
+}

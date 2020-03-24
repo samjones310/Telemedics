@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>c-check</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Mockup" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
+        <g id="Dashboard" transform="translate(-40.000000, -240.000000)" stroke="#000000">
+            <g id="Side-Bar" transform="translate(0.000000, 100.000000)">
+                <g id="c-check" transform="translate(40.000000, 140.000000)">
+                    <polyline id="Path" points="9.56521739 20 16.5217391 26.9565217 30.4347826 13.0434783"></polyline>
+                    <circle id="Oval" cx="20" cy="20" r="19.1304348"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

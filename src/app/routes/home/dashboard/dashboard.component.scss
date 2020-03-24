@@ -1,0 +1,133 @@
+@import '../../../../styles.scss';
+.bold {
+  font-weight: bold;
+}
+.small-font {
+  font-size: $small-font;
+}
+
+.large-text {
+  font-size: 1.6rem;
+}
+
+
+.alert-info {
+  color: #31708f;
+  background-color: #d9edf7;
+  border-color: #bce8f1;
+  border: 1px solid transparent;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  border-radius: 4px;
+  font-size: $small-font;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  height: 30px;
+}
+
+.app-container {
+  max-width: 64rem;
+  margin-right: auto;
+  margin-left: auto;
+  mat-card {
+    padding: 0;
+    margin: 1rem;
+  }
+  .no-shadow {
+    box-shadow: none;
+  }
+}
+
+.info-card-container {
+  background-color: #43a095;
+  color: white;
+  margin-left: 0;
+  margin-right: 0;
+}
+.icon-container {
+  text-align: center;
+  padding: 1rem 0;
+  mat-icon {
+    font-size: 5rem;
+  }
+}
+.main-content-container {
+  flex: 1 1 auto;
+  background-color: #54cec0;
+  display: flex;
+  padding: 1rem 1rem 1rem 2rem;
+  > div {
+    flex: 1 1;
+    > div {
+      padding: 0.3rem 0;
+    }
+  }
+  .side-boxes {
+    text-align: center;
+    border-left: 1px solid white;
+    padding: 0 0.5rem;
+  }
+  .desc-text{
+    min-height: 45px;
+    line-height: 16px;
+    text-overflow: ellipsis;
+  }
+}
+
+.main-content-container-wrap{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.black-header {
+  color: white;
+  background-color: #757575;
+  display: flex;
+  padding: 0.5rem 0;
+  > * {
+    margin: 0 0.5rem;
+  }
+}
+
+.step-info-card {
+  mat-card-content {
+    display: flex;
+  }
+  .status-marker {
+    flex: 0 1 1rem;
+    &.draft {
+      background-color: #21a8de;
+    }
+    &.processed {
+      background-color: #fba957;
+    }
+  }
+  .content {
+    flex: 1 1;
+    display: flex;
+    padding: 0.5rem 1rem;
+    > div {
+      flex: 1 1;
+      > div {
+        padding: 0.3rem 0.5rem;
+      }
+    }
+  }
+}
+
+.tab {
+  display: flex;
+  align-items: center;
+  .tab-icon {
+    font-size: 24px;
+    flex: 0 0 32px;
+    width: 32px;
+  }
+  .tab-content {
+    text-align: left;
+    padding-left: 0.3rem;
+  }
+}

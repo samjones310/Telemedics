@@ -1,0 +1,139 @@
+/* 
+MARGIN SPACINGS
+-- Adding spacings using margins
+-- Giving spacings between elements or parent/child outside Border Box
+-- Cannot be used with inline-block elements for top/bottom spacings
+*/
+.mb-0 {
+  margin-bottom: 0;
+}
+.ml-0 {
+  margin-left: 0;
+}
+.mr-0 {
+  margin-right: 0;
+}
+.mt-0 {
+  margin-top: 0;
+}
+.m-0 {
+  margin: 0;
+}
+
+.mb-small {
+  margin-bottom: 0.25rem;
+}
+.ml-small {
+  margin-left: 0.25rem;
+}
+.mr-small {
+  margin-right: 0.25rem;
+}
+.mt-small {
+  margin-top: 0.25rem;
+}
+.m-small {
+  margin: 0.25rem;
+}
+
+.mb-medium {
+  margin-bottom: 0.5rem;
+}
+.ml-medium {
+  margin-left: 0.5rem;
+}
+.mr-medium {
+  margin-right: 0.5rem;
+}
+.mt-medium {
+  margin-top: 0.5rem;
+}
+.m-medium {
+  margin: 0.5rem;
+}
+
+.mb-large {
+  margin-bottom: 1rem;
+}
+.ml-large {
+  margin-left: 1rem;
+}
+.mr-large {
+  margin-right: 1rem;
+}
+.mt-large {
+  margin-top: 1rem;
+}
+.m-large {
+  margin: 1rem;
+}
+
+/* 
+PADDING SPACINGS
+-- Adding spacings using paddings
+-- Giving spacings between elements or parent/child inside Border Box
+-- Cannot be used with inline-block elements for top/bottom spacings
+*/
+.pb-0 {
+  padding-bottom: 0 !important;
+}
+.pl-0 {
+  padding-left: 0 !important;
+}
+.pr-0 {
+  padding-right: 0 !important;
+}
+.pt-0 {
+  padding-top: 0 !important;
+}
+.p-0 {
+  padding: 0 !important;
+}
+
+.pb-small {
+  padding-bottom: 0.25rem;
+}
+.pl-small {
+  padding-left: 0.25rem;
+}
+.pr-small {
+  padding-right: 0.25rem;
+}
+.pt-small {
+  padding-top: 0.25rem;
+}
+.p-small {
+  margin: 0.25rem;
+}
+
+.pb-medium {
+  padding-bottom: 0.5rem;
+}
+.pl-medium {
+  padding-left: 0.5rem;
+}
+.pr-medium {
+  padding-right: 0.5rem;
+}
+.pt-medium {
+  padding-top: 0.5rem;
+}
+.p-medium {
+  margin: 0.5rem;
+}
+
+.pb-large {
+  padding-bottom: 1rem;
+}
+.pl-large {
+  padding-left: 1rem;
+}
+.pr-large {
+  padding-right: 1rem;
+}
+.pt-large {
+  padding-top: 1rem;
+}
+.p-large {
+  padding: 1rem;
+}

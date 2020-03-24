@@ -1,0 +1,36 @@
+<app-toolbar></app-toolbar>
+
+<div class="home-container">
+  <mat-sidenav-container class="sidenav-container" (backdropClick)="backdropClicked($event)">
+    <mat-sidenav #sideNav [ngClass]="!isOpen ? 'margin-left-100 sidenav-close' : ''" mode="side" fixedInViewport
+      fixedTopGap="52" fixedBottomGap="32">
+      <mat-nav-list class="nav-list">
+        <div class="flex-top">
+          <ng-container *ngFor="let sidebar of sidebars;">
+            <div mat-list-item class="sidebar-item" [ngClass]="router.url === sidebar.route ? 'active-item' : ''"
+              (click)="goToPage(sidebar.route)">
+              <mat-icon class="sidebar-icon-svg">{{sidebar.icon}}</mat-icon>
+              <div [ngClass]="isOpen ? '' : 'display-none' " class="sidebar-text">{{sidebar.text}}</div>
+            </div>
+          </ng-container>
+        </div>
+        <div class="flex-bottom">
+          <div class="toggle-container">
+            <div mat-list-item class="sidebar-item" (click)="onToggle($event);">
+              <img src="assets/Sidebar/toggle.svg" alt="Toggle Menu" class="sidebar-icon-svg">
+              <div [ngClass]="isOpen ? '' : 'display-none' " class="sidebar-text">Toggle Menu</div>
+            </div>
+
+          </div>
+        </div>
+      </mat-nav-list>
+
+
+    </mat-sidenav>
+    <mat-sidenav-content [ngClass]="!isOpen ? 'padding-left-100' : ''">
+      <router-outlet></router-outlet>
+    </mat-sidenav-content>
+  </mat-sidenav-container>
+</div>
+
+<app-footer></app-footer>

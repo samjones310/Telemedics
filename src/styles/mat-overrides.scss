@@ -1,0 +1,10 @@
+.mat-form-element::ng-deep {
+    .mat-form-field-infix {
+        .mat-select-arrow-wrapper {
+            transform: translateY(0%);
+        }
+    }
+}
+.mat-fab.mat-primary, .mat-flat-button.mat-primary, .mat-mini-fab.mat-primary, .mat-raised-button.mat-primary {
+    background: #295293;
+}

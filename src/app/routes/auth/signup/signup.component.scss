@@ -1,0 +1,99 @@
+.signup-form-wrap{
+  padding-top: 5vh;
+  background-color:#f8f8f8;
+  min-height: 700px;
+}
+
+.signup-form{
+  width: 100%;
+  margin: 0 auto;
+}
+
+mat-card{
+  padding: 0;
+}
+
+mat-form-field{
+  width: 100%;
+}
+
+.welcomeClass ::ng-deep .mat-figure {
+  flex-direction: column;
+}
+
+.welcomeClass h2 {
+  margin:0px;
+}
+
+.signup-container {
+  //width: 800px;
+  margin: 0 auto;
+  width: 1040px;
+  height: 550px;
+  background: rgb(255, 255, 255);
+  /*box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.12),
+  0px 2px 6px 1px rgba(0, 0, 0, 0.06);*/
+  border-radius: 2px;
+}
+
+img{
+  width:100%;
+}
+
+mat-card-header{
+  padding: 16px;
+  background-color: #115bb1;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  text-align: center;
+  color: white;
+}
+
+.mat-card-header .mat-card-title{
+  margin: 0 auto;
+  margin-bottom: 0;
+}
+
+mat-card-content{
+  padding: 32px 32px 16px 32px;
+  margin-bottom: 0;
+}
+
+mat-card-actions{
+  padding: 16px;
+  text-align: center;
+}
+
+mat-card-footer{
+  text-align: center;
+  padding-top: 0;
+  padding-bottom: 16px;
+}
+
+mat-card-actions button{
+  margin-bottom: 16px;
+}
+
+.spinner-wrap{
+  height: 50px;
+}
+
+.loading-button{
+  padding: 8px;
+  padding-left: 22px;
+}
+
+.success-button {
+  background-color: #115bb1;
+  color: #fff;
+  width:380px;
+}
+
+.displayBlock{
+  display:block;
+}
+.backgroundImage{
+  background-image: url('../../../../assets/MTX_Nasdaq_image.jpg');
+  background-size: cover;
+
+}

@@ -1,0 +1,46 @@
+<!--
+@author Gaurav Shah
+@email gaurav.shah@mtxb2b.com
+@create date 2019-09-14 02:32:11
+@modify date 2019-09-14 02:32:32
+@desc Toolbar Component.
+-->
+<mat-toolbar class="app-toolbar">
+  <!--<div class="toggle-container" *ngIf="loggedIn">
+     <button mat-icon-button (click)="onToggle($event);">
+      <mat-icon>{{sidebarToggle?'menu_open':'menu'}}</mat-icon>
+    </button>
+  </div>-->
+  <div class="title">
+    <mat-icon svgIcon="mtx_logo" class="logo"></mat-icon>
+    <div>Telemedic Application</div>
+  </div>
+  <div class="toolbar-action-container">
+    <ng-container *ngIf="loggedIn">
+      <div class="profile-drop-down-container" [matMenuTriggerFor]="menu" aria-label="Profile dropdown">
+        <!--<img src="/assets/headshot_das-nobel.jpg" />-->
+        <i class="material-icons">perm_identity</i>
+        <div>
+          <!--{{user.userFullName}}-->
+          Das Nobel
+
+        </div>
+        <mat-icon aria-hidden="false">keyboard_arrow_down</mat-icon>
+      </div>
+      <mat-menu #menu="matMenu" hasBackdrop="true">
+        <button mat-menu-item>
+          <mat-icon>person_pin</mat-icon>
+          <span>Profile</span>
+        </button>
+        <button mat-menu-item>
+          <mat-icon>settings</mat-icon>
+          <span>Settings</span>
+        </button>
+        <button mat-menu-item (click)="logout()">
+          <mat-icon>logout</mat-icon>
+          <span>Logout</span>
+        </button>
+      </mat-menu>
+    </ng-container>
+  </div>
+</mat-toolbar>

@@ -1,0 +1,96 @@
+@import '../../../styles.scss';
+
+.app-toolbar {
+  background-color: #426ec2;
+  color: white;
+  padding-left: 20px;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 10;
+
+  button[opened] {
+    background: $color-grey-lighter;
+  }
+
+  .toggle-container {
+    flex: 0 0 auto;
+    padding-right: 1rem;
+  }
+
+  .title {
+    font-size: $h3-font-size;
+    flex: 1 1 auto;
+    display: flex;
+    align-items: center;
+
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 0px;
+
+    .logo {
+      height: 42px;
+      padding-right: 1rem;
+    }
+  }
+
+  .toolbar-action-container {
+    display: flex;
+    align-items: center;
+
+    .profile-drop-down-container {
+      display: flex;
+      align-items: center;
+      color: rgb(255, 255, 255);
+      font-size: 14px;
+      border-radius: 3px;
+      padding: 4px 9px;
+      margin-left: 12px;
+      cursor: pointer;
+      @extend .font-400;
+
+      &:hover {
+        background-color: rgb(75, 140, 242);
+      }
+
+      img {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-right: 12px;
+      }
+
+      mat-icon {
+        margin-left: 12px;
+      }
+    }
+
+    mat-menu {
+      margin-top: 0.5rem;
+    }
+  }
+}
+
+.hamburger-button {
+  width: 56px;
+  height: 56px;
+  margin: 0;
+
+  mat-icon {
+    & ::ng-deep svg {
+      width: 28px;
+    }
+  }
+}
+
+.material-icons {
+  margin-right: 10px;
+  margin-top: -2px;
+}
